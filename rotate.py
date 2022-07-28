@@ -34,7 +34,7 @@ class Solution:
         for i in range(len(matrix)):
             row = []
             for j in range(len(matrix)-1, -1, -1):
-                row.append(matrix[j][i]
+                row.append(matrix[j][i])
             temp.append(row)
         return temp
                          
